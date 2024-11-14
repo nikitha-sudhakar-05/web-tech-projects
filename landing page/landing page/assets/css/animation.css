@@ -1,0 +1,24 @@
+/* Animation */
+
+.landing-page {
+    animation-name: colorChange;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+}
+@keyframes colorChange {
+    0%{
+        color:rgb(67, 12, 93);
+    }
+
+    25%{
+        color:yellow;
+    }
+
+    50%{
+        color:rgb(183, 51, 113);
+    }
+
+    100%{
+        color:rgb(54, 29, 155);
+    }
+}
